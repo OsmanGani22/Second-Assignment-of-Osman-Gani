@@ -1,5 +1,16 @@
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
  
- body{
+ 
+ 
+ 
+ .body{
     background-color: #FFFFFF;
     padding: 20px;
  }
@@ -10,15 +21,31 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    
  }
  .button {
     background-color: orange;
     border-radius: 10px;
-    border-color: aquamarine 10px;
+         }
+ 
 
- }
+ 
  
  /* navbar  */
+    #home{
+        color: orange;
+    }
+    #about{
+        color:skyblue;
+    }
+    #facilities{
+        color: #05D4DF;
+    }
+    #admission{
+        color: #5D58EF;
+    }
+
+
     
    
   
@@ -27,6 +54,11 @@
   
   
     /* banner */
+ #enroll{
+    background-color: black;
+    color: white;
+ }
+
 
    
 

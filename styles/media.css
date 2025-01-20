@@ -1,25 +1,35 @@
 
-
-
-/* navbar  */
+/* Small (max-width: 640px */
+    @media screen and (max-width: 640px) {
+        .menu, .button{
+            display: none;
+        }
+        #school{
+            display: none;
+        }
+        
+    }
+   
+  
+  
+  
+  
+  
+    /* Medium (Min-width: 641px; Max-width: 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px){
     
-   
-  
-  
-  
-  
-  
-    /* banner */
-
+}
    
 
 
-   /* Standard Curriculum */
+   /* Large (Min-width: 1008px */
+   @media screen and (min-width: 1008px) {
+    .icon{
+        display: none;
+    }
+   }
 
 
-   /* Our Stories */
-
-
-    /* footer */
+   
 
 

@@ -1,0 +1,41 @@
+ 
+ body{
+    background-color: #FFFFFF;
+    padding: 20px;
+ }
+ 
+ /* shared styles */
+ .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+ }
+ .button {
+    background-color: orange;
+    border-radius: 10px;
+    border-color: aquamarine 10px;
+
+ }
+ 
+ /* navbar  */
+    
+   
+  
+  
+  
+  
+  
+    /* banner */
+
+   
+
+
+   /* Standard Curriculum */
+
+
+   /* Our Stories */
+
+
+    /* footer */
+

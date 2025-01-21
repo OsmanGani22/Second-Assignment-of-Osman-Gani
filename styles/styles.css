@@ -12,8 +12,11 @@
  
  .body{
     background-color: #FFFFFF;
+   
     padding: 20px;
-    background-image: url("assets/bg.png");
+  
+   
+
     
  }
  
@@ -81,14 +84,14 @@
       text-align: center;
    }
    .standard{
-      background-image: url("assets/bg.png");
+      background-image: url(assets/bg-1.jpg);
    }
 .cards{
    display: flex;
-   gap: 30px;
+   gap: 20px;
    justify-content: space-between;
    background-image: url("assets/bg.png");
-   width: 90vw;
+   width: auto;
 }
 #card1{
    background-color: #DEF5FF;
@@ -113,6 +116,32 @@
 #h63{
    color: #8700FF;
 }
+.arrow{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 30px;
+   
+}
+#arrow1{
+   background-color: orange;
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+#arrow2{
+   background-color: orange;
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
    /* Our Stories */
    #h31{
       text-align: center;
@@ -120,21 +149,29 @@
    .stories{
       display: flex;
       gap: 20px;
-      width: 45vw;
+      width: auto;
+      justify-content: space-between;
       
    }
-   .story-1{
-      width: 45vw;
-   }
+   
    #btn2{
       background-color: #3CD8E8;
    }
    .stories-2-5{
-      width: 50vw;
+      justify-content: space-between;
+      
+   }
+   .story-2{
+      margin-right: 30px;
+   }
+   .story-4{
+      margin-right: 30px;
    }
    .stories-2-3{
       display: flex;
-      gap: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      
    }
    #btn3, #btn5, #btn6{
       background-color: #95B226;
@@ -144,7 +181,9 @@
    }
    .stories-4-5{
       display: flex;
-      gap: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      
    }
    #view{
       color: white;

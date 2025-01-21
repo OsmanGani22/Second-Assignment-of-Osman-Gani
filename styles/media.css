@@ -26,6 +26,9 @@
             flex-direction: column;
             width: auto;
         }
+        .arrow{
+            display: none;
+        }
         /* Our stories */
         .story-1{
             display: none;

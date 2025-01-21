@@ -7,17 +7,25 @@
         #school{
             display: none;
         }
-        
+        #banner{
+            display: flex;
+           flex-direction: column-reverse;
+        }
+        h2, p {
+            justify-content: center;
+        }        
     }
+        
    
-  
   
   
   
   
     /* Medium (Min-width: 641px; Max-width: 1007px */
 @media screen and (min-width: 641px) and (max-width: 1007px){
-    
+    .icon{
+        display: none;
+    }
 }
    
 

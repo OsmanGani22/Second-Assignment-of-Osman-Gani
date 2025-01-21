@@ -13,6 +13,7 @@
  .body{
     background-color: #FFFFFF;
     padding: 20px;
+    
  }
  
  /* shared styles */
@@ -58,7 +59,12 @@
     background-color: black;
     color: white;
  }
-
+#empowering{
+   color: orange;
+}
+#towards{
+   color: skyblue;
+}
 
    
 

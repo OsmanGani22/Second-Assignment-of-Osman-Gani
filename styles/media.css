@@ -1,5 +1,6 @@
 
 /* Small (max-width: 640px */
+/* navbar and banner */
     @media screen and (max-width: 640px) {
         .menu, .button{
             display: none;
@@ -13,10 +14,16 @@
            text-align: center;
         }
         h2, p {
-            justify-content: center;
-        }        
-    }
+            justify-content: center;    
+        }  
+           /*Standard Curriculum  */
+           .cards {
+            display: flex;
+            flex-direction: column;
+        }
+       }
         
+       
    
   
   

@@ -149,6 +149,40 @@
    }
 #view-button{
    text-align: center;
+   margin-bottom: 50px;
+   margin-top: 50px;
 }
     /* footer */
+    .footer{
+      display: flex;
+      flex: auto;
+      justify-content: space-around;
+      background-color: #01ACFD;
+      color:white;
+      align-items: center;
+    }
+    #kids{
+      display: flex;
+      color:white;
+    }
+    #part-2{
+      display: flex;
+      flex-direction: column;
+    }
+    #about{
+      text-align: center;
+      color: white;
+    }
+    .part-3{
+      display: flex;
+      flex-direction: column;
+    }
+    #keep{
+      text-align: center;
+    }
+    #icons{
+      display: flex;
+      margin: auto;
+      
+    }
 

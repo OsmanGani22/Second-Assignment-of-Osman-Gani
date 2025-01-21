@@ -31,7 +31,7 @@
             display: none;
         }
         .stories{
-            width: auto;
+            width: 60vw;
         }
         /* footer */
         .footer{
@@ -49,7 +49,7 @@
   
     /* Medium (Min-width: 641px; Max-width: 1007px */
 @media screen and (min-width: 641px) and (max-width: 1007px){
-    .icon{
+    .icon, .stroke{
         display: none;
     }
 }
@@ -58,7 +58,7 @@
 
    /* Large (Min-width: 1008px */
    @media screen and (min-width: 1008px) {
-    .icon{
+    .icon, .stroke{
         display: none;
     }
    }

@@ -110,6 +110,33 @@
    #h31{
       text-align: center;
    }
-
+   .stories{
+      display: flex;
+      gap: 20px;
+      
+   }
+   .story-1{
+      width: 50%;
+   }
+   .stories-2-5{
+      width: 50%;
+   }
+   .stories-2-3{
+      display: flex;
+      gap: 10px;
+   }
+   .stories-4-5{
+      display: flex;
+      gap: 10px;
+   }
+   #view{
+      color: white;
+      background-color: black;
+      border-radius: 15px;
+      text-align: center;
+   }
+#view-button{
+   text-align: center;
+}
     /* footer */
 

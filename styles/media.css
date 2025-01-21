@@ -21,6 +21,13 @@
             display: flex;
             flex-direction: column;
         }
+        /* Our stories */
+        .story-1{
+            display: none;
+        }
+        .stories{
+            width: auto;
+        }
        }
         
        

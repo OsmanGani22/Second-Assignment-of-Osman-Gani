@@ -14,6 +14,8 @@
     background-color: #FFFFFF;
    
     padding: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
   
    
 
@@ -94,8 +96,14 @@
    width: auto;
 }
 #card1{
+   display: flex;
+   flex-direction: column;
    background-color: #DEF5FF;
    text-align: center;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
    
 }
 #h61{
@@ -103,15 +111,23 @@
    
 }
 #card2{
+   display: flex;
+   flex-direction: column;
    background-color: #FFF4DC;
    text-align: center;
+   border-radius: 10px;
+   background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
 }
 #h62{
    color: #F0AA00;
 }
 #card3{
+   display: flex;
+   flex-direction: column;
    background-color: #F2E8FF;
    text-align: center;
+   border-radius: 10px;
+   background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
 }
 #h63{
    color: #8700FF;
@@ -143,6 +159,12 @@
    justify-content: center;
 }
    /* Our Stories */
+   #OurStories{
+      background-image: url("bg-1.png");
+      background: linear-gradient(to top, #FEA301, #FFFFFF);
+}
+
+   }
    #h31{
       text-align: center;
    }
@@ -155,6 +177,7 @@
    }
    #image1, #image2, #image3, #image4, #image5{
       margin-bottom: -13px;
+      border-radius: 10px;
    }
 
    

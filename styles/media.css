@@ -2,6 +2,10 @@
 /* Small (max-width: 640px */
 /* navbar and banner */
     @media screen and (max-width: 640px) {
+       .body{
+        margin-left: 20px;
+        margin-right:20px ;
+       }
         .menu {
             display: none;
         }

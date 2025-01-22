@@ -85,8 +85,13 @@
    #title{
       text-align: center;
    }
+   #standard{
+      width: 100%;
+      height: fit-content;
+      background-image: url('assets/bg.png');
+   }
    .standard{
-      background-image: url(assets/bg-1.jpg);
+      background-image: url('assets/bg.png');
    }
 .cards{
    display: flex;
@@ -162,7 +167,9 @@
 }
    /* Our Stories */
    #OurStories{
-      background-image: url("bg-1.png");
+      width:100%;
+      height: fit-content;
+      background-image: url("bg.png");
       background: linear-gradient(to top, #FEA301, #FFFFFF);
 }
 
